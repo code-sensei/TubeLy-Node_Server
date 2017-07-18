@@ -32,7 +32,7 @@ app.get('/:id', function (req, res) {
 
       video.on('end', (info) => {
             console.log('Uploading...')
-                  storageRef.upload(req.params.id + '.mp4', (err, file) => {
+                  storageRef.upload('videos/' + req.params.id + '.mp4', (err, file) => {
                         console.log('Upload started')
                         if(!err)
                               console.log('Upload to storage successful')
