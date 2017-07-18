@@ -1,0 +1,21 @@
+{
+  "name": "tubely-server",
+  "version": "1.0.0",
+  "description": "REST Api server endpoint for TubeLy mobile app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Tsowa Babangida - Daemon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "firebase": "^4.1.3",
+    "gcloud": "^0.37.2",
+    "youtube-dl": "^1.11.1"
+  },
+  "engines": {
+    "node": "6.11.0"
+  }
+}
